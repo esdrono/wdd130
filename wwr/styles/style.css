@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    background-color: #fcfbfb;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+.logo {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #your_desired_text_color;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+/* Hero section styles */
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book, .join {
+    background-color: #your_desired_color;
+    color: #your_desired_text_color;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #your_desired_hover_color;
+    color: #your_desired_hover_text_color;
+}
+
+/* Main section styles */
+.icon {
+    width: 80px;
+}
+
+/* Background div styles */
+#background {
+    height: 725px;
+}
+
+/* Message section styles */
+.msg h2 {
+    color: #your_desired_text_color;
+}
+
+.msg p {
+    color: #your_desired_text_color;
+}
+
+/* Footer styles */
+footer {
+    background-color: #your_desired_color;
+    color: #your_desired_text_color;
+}
+
+footer a {
+    color: #your_desired_text_color;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #your_desired_hover_text_color;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+}
