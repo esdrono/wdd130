@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tart & Sweet</title>
+    <style>.home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px;
+      }
+      
+      .cherries {
+        grid-column: 1/2;
+        grid-row: 1/3;
+      }
+      
+      .background {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .title {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        color: #8B0000;
+        align-self: center;
+        font-size: 8vw; /* Made text slightly smaller */
+        text-align: center;
+      }
+      
+      .headline {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        color: black;
+        font-size: 6vw; /* Made text larger */
+        z-index: 1;
+        justify-self: center;
+        align-self: center;
+      }
+      
+      
+      
+    </style>
+</head>
+<body>
+    <div class="home-grid">
+        <img src="https://byui-wdd.github.io/wdd130/ice/w06_cherries.png" class="cherries">
+        <div class="background">
+          <h2 class="title">Cherries</h2>
+        </div>
+        <h1 class="headline">Tart & Sweet</h1>
+      </div>      
+</body>
+</html>
